@@ -1,6 +1,7 @@
 from gui import *
 from PyQt6.QtWidgets import *
 from dice import *
+import re
 
 ''' ---------------------------------------------------------------------------------------------------------------- '''
 ''' -------------------------------------------- Encounter Setup -------------------------------------------------- '''
@@ -74,16 +75,17 @@ class Encounter:
         """
         encounter: list = Encounter.file_select(name)
 
-        f_Title:str = (encounter[0])
-        roll_Title:str = f"{f_Title}"
-        f_Narration:str = (encounter[1])
-        roll_Narration: str = f"{f_Narration}"
-        f_Description:str = (encounter[2])
-        roll_Description: str = f"{f_Description}"
+        f_Title:str = encounter[0]
 
+        f_Narration:str = encounter[1]
+        strip_Narration = f_Narration.strip()
+        roll_Narration = eval(f'f"{strip_Narration}"')
 
-        print(roll_Description)
-        output = [roll_Title,roll_Narration,roll_Description]
+        f_Description:str = encounter[2]
+        strip_Description = f_Description.strip()
+        roll_Description = eval(f'f"{strip_Description}"')
+
+        output = [f_Title,roll_Narration,roll_Description]
 
         return output
 
