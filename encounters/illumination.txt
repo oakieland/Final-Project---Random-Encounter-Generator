@@ -1,0 +1,8 @@
+It is dimly lit by phosphorescent moss and lichen.
+It is dimly lit by an unusual magical energy.
+It is dark except for whatever light sources the characters might have.
+It is dark except for whatever light sources the characters might have.
+<b>Dim Light.</b><br> Creatures have disadvantage on Wisdom (Perception) checks that rely on sight.
+<b>Dim Light.</b><br> Creatures have disadvantage on Wisdom (Perception) checks that rely on sight.<br><br> <b>Faezress.</b><br>Advantage on saving throws against Divination spells.<br>DC 15 Con Save to Cast Divination Spells or waste spell slot.<br> DC 15 Con Save to Teleport, failure takes 1d10 force damage and spell slot is wasted.<br>After casting spell roll a d20, 1 causes a Wild Magic Surge.<br>Character comes back alive after 1 minute with madness level increased by 1.
+<b>Darkness.</b><br>Can't see and automatically fails any ability check that requires sight.<br>Attack Rolls against the creature have advantage, the creature's attack rolls have disadvantage.
+<b>Darkness.</b><br>Can't see and automatically fails any ability check that requires sight.<br>Attack Rolls against the creature have advantage, the creature's attack rolls have disadvantage.

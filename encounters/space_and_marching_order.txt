@@ -1,0 +1,6 @@
+You are in a narrow tunnel. 
+You are in a wide passage. 
+You are in a open cavern. 
+<b>Narrow.</b><br>So position the adventurers in the single-file marching order. 
+<b>Wide.</b><br>Can use the two-abreast marching order. 
+<b>Open.</b><br>So allow the players to position the characters wherever they like. 
