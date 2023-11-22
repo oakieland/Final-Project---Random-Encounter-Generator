@@ -1,0 +1,13 @@
+The cavern is filled with fungi and mushrooms of all sizes and types but the most notable are the large, cask-shaped fungus.
+The cavern is filled with multicolored fungus, a circle of blue-capped mushrooms sits the most prominent.
+The cavern is filled with geothermal heat, pale orange-white lichens thrive here.
+Shelves of fungus that looks like rotting flesh populate this passage.
+Five foot tall broad gray-green capped mushrooms thrive well within this cavern.
+This cavern features shallow water that goes up to your ankle, in it grows bulbous sponge-like mushrooms.
+<b>Nature Check DC 15.</b> <br>To have knowledge on Underdark mushrooms and flora.<br><br><b>{roll(1,6)} Barrelstalks.</b><br>A single barrelstalk contains 1d4 + 4 gallons of water and yields 1d6 + 4 pounds of food.
+<b>Nature Check DC 15.</b> <br>To have knowledge on Underdark mushrooms and flora.<br><br><b>{roll(3,6)} Bluecap Mushrooms</b>. <br>Dubbed the "grain of the Underdark," a bluecap is inedible, but its spores can be ground to make a nutritious, bland flour. Bread made from bluecap flour is known as sporebread or bluebread. One loaf is equivalent to 1 pound of food.
+<b>Nature Check DC 15.</b> <br>To have knowledge on Underdark mushrooms and flora.<br><br><b>{roll(1,6)} Patches of Fire Lichen.</b><br>Fire lichen can be ground and fermented into a hot, spicy paste, which is spread on sporebread or added to soups or stews to flavor them. Duergar also ferment fire lichen into a fiercely hot liquor.
+<b>Nature Check DC 15.</b> <br>To have knowledge on Underdark mushrooms and flora.<br><br><b>{roll(1,6)} Sheets of Ripplebark.</b><br>It is surprisingly edible. Though it can be eaten raw, it tastes better roasted. A single sheet of ripplebark yields 1d4 + 6 pounds of food.
+<b>Nature Check DC 15.</b> <br>To have knowledge on Underdark mushrooms and flora.<br><br><b>{roll(1,6)} Trillimacs </b>.<br>The cap's leathery surface can be cut and cleaned for use in making maps, hats, and scrolls (its surface takes on dyes and inks well). The stalk can be cleaned, soaked in water for an hour, then dried to make a palatable food akin to bread. Each trillimac stalk provides 1d6 + 4 pounds of food.
+<b>Nature Check DC 15.</b> <br>To have knowledge on Underdark mushrooms and flora.<br><br><b>{roll(1,6)} Waterorbs. </b><br> A mature waterorb can be squeezed like a sponge, yielding a gallon of drinkable water and a pound of edible (if chewy and somewhat tasteless) food.
+<b>Nature Check DC 15.</b> <br>To have knowledge on Underdark mushrooms and flora.<br><br><b>{roll(3,6)} Waterorbs. </b><br> A mature waterorb can be squeezed like a sponge, yielding a gallon of drinkable water and a pound of edible (if chewy and somewhat tasteless) food.

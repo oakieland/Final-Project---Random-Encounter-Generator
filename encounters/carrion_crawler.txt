@@ -1,0 +1,8 @@
+Scouring the tunnel is a large insectoid, a carrion craweler, one of nature's biggest scavengers.
+The passage has refuse and litter, probably made by the large worm on its ceiling.
+At the center of this passage is a large worm-like creature scouring it for food.
+On the nearest wall you catch a glimpse of a large worm, a carrion crawler, this one is domesticated and outfitted with a leather saddle and harness, though there's no sign of the rider.
+
+
+
+<b>Animal Handling DC 13.</b> To tame it. While in the saddle and harness, a rider can remain mounted on the carrion crawler as it crawls across walls and ceilings.

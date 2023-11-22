@@ -12,92 +12,91 @@ class Encounter:
         Format: Die Roll: ["Added to Description","Added to Explaination"]
         Most of the Encounters use a d20, however, I use a d6 to randomize the results slightly.
     """
+
+    @staticmethod
+    def file_select(name)-> list:
+        """
+        Method to builder encounter, find its text file.
+        Prefixes:
+            file = the .txt file that is read.
+            nara = the narration that would be read aloud.
+            rule = the rules related to the above narration.
+        :return: output, 3 strings in a list are outputted: The name, narration and rules.
+        """
+        # Convert name to file
+        filename = str(name).lower().replace(" ", "_")
+
+        # Makes sure the file doesn't crash if the txt. file goes missing.
+        try:
+            file_encounter = open(f'encounters/{filename}.txt', errors="ignore").readlines()
+        except FileNotFoundError:
+            return [name, f"", f"<b>Error.</b><br> Please add {filename}.txt to encounters folder."]
+
+        # The file mirrors itself, half would be the narration and the other half the rules.
+        size = (len(file_encounter) // 2)
+
+        # Make sure the file doesn't crash if the text file doesn't have content
+        try:
+            choice = read_roller(1, size)
+        except ValueError:
+            return [name, f"", f"<b>Error.</b><br> {filename}.txt is empty."]
+        except IndexError:
+            return [name, f"", f"<b>Error.</b><br> {filename}.txt doesn't have enough information."]
+
+        # Take the rules and narration from the file.
+        narration = (file_encounter[choice]).strip()
+        description = file_encounter[choice + size]
+
+        output = [name, narration, description]
+        return output
+
     @staticmethod
     def encounter_setup() -> list:
         """
         Method to choose "Space and Marching Order" and "Illumination"
         Prefixes:
-            file = the .txt file that is read.
-            nara = the narration that would be read aloud.
-            rule = the rules related to the above narration.
         :return: output, 2 lines from space_and_marching_order.txt and illumination.txt
         """
         # Space and Marching Order
-        size = 3
-        choice = read_roller(1, size)
-        file_space_and_marching_order = open('encounters/space_and_marching_order.txt').readlines()
-        nara_space_and_marching_order = (file_space_and_marching_order[choice]).strip()
-        rule_space_and_marching_order = file_space_and_marching_order[choice + size]
+        space_and_marching_order = Encounter.file_select("Space and Marching Order")
 
         # Illumination
-        size = 4
-        choice = read_roller(1, size)
-        file_illumination = open('encounters/illumination.txt').readlines()
-        nara_illumination = (file_illumination[choice]).strip()
-        rule_illumination = file_illumination[choice + size]
+        illumination = Encounter.file_select("Illumination")
 
-        output = [nara_space_and_marching_order, rule_space_and_marching_order, nara_illumination, rule_illumination]
+        output = [space_and_marching_order[1], space_and_marching_order[2], illumination[1], illumination[2]]
         return output
 
     @staticmethod
-    def terrain(name) -> list:
+    def encounter_generator(name) -> list:
         """
-        Method to choose Terrain, similar to the above, but less streamlined.
+        Method to choose "Terrain" or "Creature"
+        :return: output, 3 strings in a list are outputted: The name, narration and rules.
+        """
+        encounter: list = Encounter.file_select(name)
+
+        f_Title:str = (encounter[0])
+        roll_Title:str = f"{f_Title}"
+        f_Narration:str = (encounter[1])
+        roll_Narration: str = f"{f_Narration}"
+        f_Description:str = (encounter[2])
+        roll_Description: str = f"{f_Description}"
+
+
+        print(roll_Description)
+        output = [roll_Title,roll_Narration,roll_Description]
+
+        return output
+
+    @staticmethod
+    def filler() -> list:
+        """
+        Method to choose "Filler"
         Prefixes:
             file = the .txt file that is read.
             nara = the narration that would be read aloud.
             rule = the rules related to the above narration.
-        :return: output, 3 strings in a list are outputted: The name, narration and rules.
+        :return: output, 2 lines from filler.txt
         """
-        # Convert name to file
-        filename = str(name).lower().replace(" ", "_")
-
-        # Makes sure the file doesn't crash if the txt. file goes missing.
-        try:
-            file_encounter = open(f'encounters/{filename}.txt').readlines()
-        except FileNotFoundError:
-            return [name, f"", f"<b>Error.</b><br> Please add {filename}.txt to encounters folder."]
-
-        # The file mirrors itself, half would be the narration and the other half the rules.
-        size = (len(file_encounter) // 2)
-        choice = read_roller(1, size)
-
-        # Take the rules and narration from the file.
-        narration = (file_encounter[choice]).strip()
-        description = file_encounter[choice + size]
-
-
-
-
-        output = [name, narration, description]
-        return output
-
-    @staticmethod
-    def creature(name) -> list:
-        """
-        Method to choose Creature, similar format as terrain but requires more rolls.
-        Prefixes:
-            file = the .txt file that is read.
-            nara = the narration that would be read aloud.
-            rule = the rules related to the above narration.
-        :return: output, 3 strings in a list are outputted: The name, narration and rules.
-        """
-        # Convert name to file
-        filename = str(name).lower().replace(" ", "_")
-
-        # Makes sure the file doesn't crash if the txt. file goes missing.
-        try:
-            file_encounter = open(f'encounters/{filename}.txt').readlines()
-        except FileNotFoundError:
-            return [name, f"", f"<b>Error.</b><br> Please add {filename}.txt to encounters folder."]
-
-        # The file mirrors itself, half would be the narration and the other half the rules.
-        size = (len(file_encounter) // 2)
-        choice = read_roller(1, size)
-
-        # Take the rules and narration from the file.
-        narration = (file_encounter[choice]).strip()
-        description = file_encounter[choice + size]
-
-        output = [name, narration, description]
+        filler = Encounter.file_select("filler")
+        output = [filler[1], filler[2]]
         return output

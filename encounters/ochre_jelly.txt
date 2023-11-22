@@ -1,0 +1,6 @@
+The floor of this passage is covered with thick slime.
+A chlorine smell infuriates the nose.
+The passage is filled with the bones of many Underdark vermine skeletons.
+<b>Passive Perception DC 14.</b> The character at the back of the marching order must have this, they can spot the ooze trailing them. Failure to do so, the ooze attacks next rest.
+<b>Passive Perception DC 14.</b> The character at the back of the marching order must have this, they can spot the ooze trailing them. Failure to do so, the ooze attacks next rest.
+<b>Passive Perception DC 14.</b> The character at the back of the marching order must have this, they can spot the ooze trailing them. Failure to do so, the ooze attacks next rest.

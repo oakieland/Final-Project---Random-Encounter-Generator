@@ -1,0 +1,6 @@
+Up ahead {roll(3,6)} big glowing beetles scour the passage for food.
+The passage is filled with bright light coming from {roll(3,6)} glowing beetles.
+The buzzing and chirping comes from a strange glow up ahead.
+<b> Combat. </b><br>Giant Fire Beetles only go into combat if they feel threatened.<br><br><b>Survival DC 10.</b><br>Harvest their glands to shed bright light for 1d6 days.
+<b> Combat. </b><br>Giant Fire Beetles only go into combat if they feel threatened.<br><br><b>Survival DC 10.</b><br>Harvest their glands to shed bright light for 1d6 days.
+<b> Combat. </b><br>Giant Fire Beetles only go into combat if they feel threatened.<br><br><b>Survival DC 10.</b><br>Harvest their glands to shed bright light for 1d6 days.

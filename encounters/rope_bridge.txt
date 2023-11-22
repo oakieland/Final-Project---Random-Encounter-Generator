@@ -1,0 +1,6 @@
+A ravine {roll(2,4)*10} feet wide and {roll(2,4)*10} feet deep cuts across the passage, spanned by an old rope bridge.
+An abyss {roll(2,4)*10} feet wide and {roll(2,4)*10} feet deep cuts through the Underdark, an old bridge disappears into the darkness on the other side.
+A rope bridge cuts across a deep pit {roll(2,4)*10} feet wide and {roll(2,4)*10} feet.
+<b>Drow Pursuit.</b><br>If the characters cut the bridge after they pass, the drow pursuit level decreases by 1.
+<b>Drow Pursuit.</b><br>If the characters cut the bridge after they pass, the drow pursuit level decreases by 1.
+<b>Drow Pursuit.</b><br>If the characters cut the bridge after they pass, the drow pursuit level decreases by 1.

@@ -1,0 +1,6 @@
+The passage ends at a sharp decline of {roll(2,4) * 100} feet and back up the other side.
+The passage opens up to a gorge that dips {roll(2,4) * 100} feet and back up the other side.
+A tremor causes the passage ahead to collapse {roll(2,4) * 100} feet. It's possible to climb the rubble to the other side.
+<b>Pace.</b> <br>Their travel pace for the day is slowed by half unless they come up with a plan to cross the gorge quickly.
+<b>Pace.</b> <br>Their travel pace for the day is slowed by half unless they come up with a plan to cross the gorge quickly.
+<b>Pace.</b> <br>Their travel pace for the day is slowed by half unless they come up with a plan to cross the gorge quickly.

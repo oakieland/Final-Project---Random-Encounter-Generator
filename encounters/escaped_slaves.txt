@@ -1,0 +1,8 @@
+Ahead you see {roll(1,2)} moon elves in iron collars similar to those from Velkynvelve.
+Walking through the passage is a campsite of shield dwarves, about {roll(1,3)} of them. They wear shackles similar to your own.
+You hear someone talking in the tunnel ahead, what comes out is {roll(1,4)} humans. You can hear the sound of their shackles clanking against the stone wall.
+A campsite up ahead clinks with the sound of chains, what look to be {roll(1,6)} goblins in shackles dancing around the flame.
+<b> Potential Allies. </b><br> For a potential trade of food and water they can assist you with your journey.
+<b> Potential Allies. </b><br> For a potential trade of food and water they can assist you with your journey.
+<b> Potential Allies. </b><br> For a potential trade of food and water they can assist you with your journey.
+<b> Potential Enemies. </b><br> These goblins are distrusting, and if they seem trusting they might potentially rob you.

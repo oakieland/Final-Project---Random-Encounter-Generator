@@ -1,0 +1,24 @@
+Beholder(s) sits quietly watching at the top of the cavern.
+Large menacing eyes watch from above. They stare unblinking.
+A beholder watches you from the other side of the room.
+Beholders floats in the center of this passage.
+Large sickly looking mushroom/s sit at the passage ahead.
+Violet colored mushrooms guard the passage's exit.
+Violet mushrooms stir to life as you enter this room.
+Violet mushroom/s feast away at the corpse of dead vermin.
+Mushrooms can be heard chirping up ahead.
+Medium-sized mushrooms sit around this passage.
+As you enter causing the mushrooms to shriek in fear.
+The mushroom in this passage react to your presence, first by shaking then my shrieking.
+<b> Beholder Dream.</b>  <br>One gas spore carries a memory fragment from a dead beholder: Spying on a drow ranger with two gleaming scimitars and a black, quadrupedal animal companion. <br><br> <b>Passive Intelligence DC 15. </b> It is not a beholder, but a fungal look alike.
+<b> Beholder Dream.</b>  <br>One gas spore carries a memory fragment from a dead beholder: A fierce battle against a wizened drow archmage, ending with the beholder suffering a grievous injury. <br><br> <b>Passive Intelligence DC 15. </b> It is not a beholder, but a fungal look alike.
+<b> Beholder Dream.</b>  <br>One gas spore carries a memory fragment from a dead beholder: Chasing svirfneblin thieves through the tunnels of its domain to recover stolen gemstones. <br><br> <b>Passive Intelligence DC 15. </b> It is not a beholder, but a fungal look alike.
+<b> Beholder Dream.</b>  <br>One gas spore carries a memory fragment from a dead beholder: A tense negotiation with drow, ending with the beholder agreeing to allow the drow safe passage through “the Vast Oblivium” in exchange for help ridding its lair of a deep gnome infestation. <br><br> <b>Passive Intelligence DC 15. </b> It is not a beholder, but a fungal look alike.
+<b> Combat. </b> <br>{roll(1,4)} Violet Fungus.
+<b> Combat. </b> <br>{roll(1,4)} Violet Fungus.
+<b> Combat. </b> <br>{roll(1,4)} Violet Fungus.
+<b> Combat. </b> <br>{roll(1,4)} Violet Fungus.
+<b> Deafened Condition. </b> <br> A deafened creature can’t hear and automatically fails any ability check that requires hearing.
+<b> Deafened Condition. </b> <br> A deafened creature can’t hear and automatically fails any ability check that requires hearing.
+<b> Deafened Condition. </b> <br> A deafened creature can’t hear and automatically fails any ability check that requires hearing.
+<b> Deafened Condition. </b> <br> A deafened creature can’t hear and automatically fails any ability check that requires hearing.

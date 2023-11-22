@@ -1,0 +1,18 @@
+The sound of laughter fills the passage. Several humans are talking to each other.
+You see campsite up ahead, surface tents made from deer hide and linen. 
+The sound of mining, the sudden bolts from iron hitting rock. The occasional conversation.
+Bones tied together by a rope rattle in your presence. You hear the sounds of many little feet.
+A dead deep gnome stripped of their clothes and weapons sits by their lonesome. Up ahead you hear cheers and camraderie. 
+As you enter the passage, many bones fill this cavern. Something has been hunting here.
+The sound of war drums and the light of a fire decorate the passage walls.
+Several dead drow, none of which you've seen before had their ears cuts away. A sign of an orc.
+Food scraps, rations that one would eat from the surface litter this passage.
+<b>Combat.</b><br> {roll(1,6)} human bandits and 1 human bandit captain.
+<b>Combat.</b><br> {roll(1,6)} human bandits and 1 human bandit captain. The captain wears a periapt of health.
+<b>Combat.</b><br> {roll(1,6)} human bandits and 1 human bandit captain. The captain has {roll(2,6)} moss agate on him.
+<b>Combat.</b><br> {roll(2,4)} goblins and 1 goblin boss. The goblin boss has a Rope of Climbing
+<b>Combat.</b><br> {roll(2,4)} goblins and 1 goblin boss. The goblins all wear torchstalks on their backs, making them an explosive hazard.
+<b>Combat.</b><br> {roll(2,4)} goblins and 1 goblin boss. 
+<b>Combat.</b><br> {roll(1,6)} orcs and 1 orc Eye of Gruumsh. They are from the Iceshield tribe and berate Ront if he is alive.
+<b>Combat.</b><br> {roll(1,6)} orcs and 1 orc Eye of Gruumsh. The orc Eye of Gruumsh wears an eyepatch with four bloodstone in it.
+<b>Combat.</b><br> {roll(1,6)} orcs and 1 orc Eye of Gruumsh.

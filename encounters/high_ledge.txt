@@ -1,0 +1,6 @@
+A ravine that is {roll(2,6) * 10} feet deep disrupts the path, the only way to go around it is through an 18-inch wide ledge that skirts it.
+An earthquake causes the floor in front of you to buckle, creating a {roll(2,6) * 10} feet deep pit. A 20-inch wide ledge is walkable to the other side.
+The area ahead is a cliff that goes down {roll(2,6) * 10} feet deep. A patch of zurkhwood skirts the ravine, but it's only a 19-inch widge ledge to walk.
+<b> Dexterity Saving Throw DC 10.</b><br> To avoid a fall and the travel pace is slow.<br><br><b>Advantage.</b><br>Precautions such as roping everyone together let each character make the save with advantage.<br><br><b>Drow Pursuit.</b><br> Increases by 1.
+<b> Dexterity Saving Throw DC 10.</b><br> To avoid a fall and the travel pace is slow.<br><br><b>Advantage.</b><br>Precautions such as roping everyone together let each character make the save with advantage.<br><br><b>Drow Pursuit.</b><br> Increases by 1.
+<b> Dexterity Saving Throw DC 10.</b><br> To avoid a fall and the travel pace is slow.<br><br><b>Advantage.</b><br>Precautions such as roping everyone together let each character make the save with advantage.<br><br><b>Drow Pursuit.</b><br> Increases by 1.
