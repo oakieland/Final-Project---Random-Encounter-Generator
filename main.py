@@ -58,6 +58,8 @@ class Madlibs(QMainWindow, Ui_MainWindow):
         # Get Dice Roll and/or check Textbox for manual input.
         d20: int = roll(1, 20)
         text = self.d20_terrain.text()
+        category = self.category
+        location = str(category.currentText())
 
         # If dice is manually entered, check if its within range
         if not text == '':
@@ -69,50 +71,116 @@ class Madlibs(QMainWindow, Ui_MainWindow):
         # Grab Terrain Encounter based on d20 roll
         match d20:
             case 1:
-                terrain: dict = Encounter.encounter_generator("Boneyard")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Boneyard",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 2:
-                terrain: dict = Encounter.encounter_generator("Cliff and Ladder")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Cliff and Ladder",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 3:
-                terrain: dict = Encounter.encounter_generator("Crystal Clusters")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Crystal Clusters",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 4:
-                terrain: dict = Encounter.encounter_generator("Fungus Cavern")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Fungus Cavern",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 5:
-                terrain: dict = Encounter.encounter_generator("Gas Leak")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Gas Leak",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 6:
-                terrain: dict = Encounter.encounter_generator("Gorge")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Gorge",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 7:
-                terrain: dict = Encounter.encounter_generator("High Ledge")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("High Ledge",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 8:
-                terrain: dict = Encounter.encounter_generator("Horrid Sounds")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Horrid Sounds",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 9:
-                terrain: dict = Encounter.encounter_generator("Lava Swell")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Lava Swell",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 10:
-                terrain: dict = Encounter.encounter_generator("Muck Pit")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Muck Pit",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 11:
-                terrain: dict = Encounter.encounter_generator("Rockfall")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Rockfall",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 12:
-                terrain: dict = Encounter.encounter_generator("Rope Bridge")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Rope Bridge",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 13:
-                terrain: dict = Encounter.encounter_generator("Ruins")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Ruins",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 14:
-                terrain: dict = Encounter.encounter_generator("Shelter")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Shelter",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 15:
-                terrain: dict = Encounter.encounter_generator("Sinkhole")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Sinkhole",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Webs", location)
             case 16:
-                terrain: dict = Encounter.encounter_generator("Slime or Mold")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Slime or Mold",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Web Break", location)
             case 17:
-                terrain: dict = Encounter.encounter_generator("Steam Vent")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Steam Vent",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Web Break", location)
             case 18:
-                terrain: dict = Encounter.encounter_generator("Underground Stream")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Underground Stream",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Web Break", location)
             case 19:
-                terrain: dict = Encounter.encounter_generator("Warning Sign")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Warning Sign",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Web Break", location)
             case 20:
-                terrain: dict = Encounter.encounter_generator("Webs")
+                if location == "Underdark":
+                    terrain: dict = Encounter.encounter_generator("Webs",location)
+                elif location == "The Silken Path":
+                    terrain: dict = Encounter.encounter_generator("Web Break", location)
 
         # Update main list with new information
-        self.e_title[1] = terrain[0]
-        self.e_descn[2] = terrain[1]
-        self.e_expln[2] = terrain[2]
+        try:
+            self.e_title[1] = terrain[0]
+            self.e_descn[2] = terrain[1]
+            self.e_expln[2] = terrain[2]
+        except UnboundLocalError:
+            self.e_title[1] = ""
+            self.e_descn[2] = ""
+            filelocation = str(location).lower().replace(" ", "_")
+            self.e_expln[3] = f"<b>Error.</b><br>Terrain doesn't exist in {filelocation} folder."
 
         # Update GUI
         self.gui_updater()
@@ -123,7 +191,9 @@ class Madlibs(QMainWindow, Ui_MainWindow):
         :param: filler uses the function of the same name in filler
         :return: None
         """
-        filler: dict = Encounter.filler()
+        category = self.category
+        location = str(category.currentText())
+        filler: dict = Encounter.filler(location)
 
         # Filler
         self.e_descn[2] = filler[0]
@@ -144,6 +214,8 @@ class Madlibs(QMainWindow, Ui_MainWindow):
         # Get Dice Roll and/or check Textbox for manual input.
         d20: int = roll(1, 20)
         text = self.d20_creature.text()
+        category = self.category
+        location = str(category.currentText())
 
         # If dice is manually entered, check if its within range
         if not text == '':
@@ -155,50 +227,114 @@ class Madlibs(QMainWindow, Ui_MainWindow):
         # Grab Creature Encounter based on d20 roll
         match d20:
             case 1:
-                creature: dict = Encounter.encounter_generator("Ambusher")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Ambusher",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Cocooned Creature", location)
             case 2:
-                creature: dict = Encounter.encounter_generator("Ambusher and Lair")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Ambusher and Lair",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Cocooned Creature", location)
             case 3:
-                creature: dict = Encounter.encounter_generator("Carrion Crawler")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Carrion Crawler",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Darkmantles", location)
             case 4:
-                creature: dict = Encounter.encounter_generator("Escaped Slaves")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Escaped Slaves",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Darkmantles", location)
             case 5:
-                creature: dict = Encounter.encounter_generator("Escaped Slaves")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Escaped Slaves",location)
             case 6:
-                creature: dict = Encounter.encounter_generator("Fungi")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Fungi",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Drow and Quaggoths", location)
             case 7:
-                creature: dict = Encounter.encounter_generator("Fungi")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Fungi",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Drow and Quaggoths", location)
             case 8:
-                creature: dict = Encounter.encounter_generator("Giant Fire Beetles")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Giant Fire Beetles",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Giant Spiders", location)
             case 9:
-                creature: dict = Encounter.encounter_generator("Giant Fire Beetles")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Giant Fire Beetles",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Giant Spiders", location)
             case 10:
-                creature: dict = Encounter.encounter_generator("Giant Rocktopus")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Giant Rocktopus",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Giant Spiders", location)
             case 11:
-                creature: dict = Encounter.encounter_generator("Giant Rocktopus")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Giant Rocktopus",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Giant Spiders", location)
             case 12:
-                creature: dict = Encounter.encounter_generator("Mad Creature")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Mad Creature",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Giant Spiders", location)
             case 13:
-                creature: dict = Encounter.encounter_generator("Ochre Jelly")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Ochre Jelly",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Giant Spiders", location)
             case 14:
-                creature: dict = Encounter.encounter_generator("Raiders")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Raiders",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Phase Spiders", location)
             case 15:
-                creature: dict = Encounter.encounter_generator("Raiders")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Raiders",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Phase Spiders", location)
             case 16:
-                creature: dict = Encounter.encounter_generator("Scouts")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Scouts",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Ettercaps", location)
             case 17:
-                creature: dict = Encounter.encounter_generator("Society of Brilliance")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Society of Brilliance",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Ettercaps", location)
             case 18:
-                creature: dict = Encounter.encounter_generator("Spore Servants")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Spore Servants",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Ettercaps", location)
             case 19:
-                creature: dict = Encounter.encounter_generator("Traders")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Traders",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Mimic", location)
             case 20:
-                creature: dict = Encounter.encounter_generator("Traders with Steeds")
+                if location == "Underdark":
+                    creature: dict = Encounter.encounter_generator("Traders with Steeds",location)
+                elif location == "The Silken Path":
+                    creature: dict = Encounter.encounter_generator("Spectator", location)
 
         # Update main list with new information
-        self.e_title[0] = creature[0]
-        self.e_descn[3] = creature[1]
-        self.e_expln[3] = creature[2]
+        try:
+            self.e_title[0] = creature[0]
+            self.e_descn[3] = creature[1]
+            self.e_expln[3] = creature[2]
+        except UnboundLocalError:
+            self.e_title[0] = ""
+            self.e_descn[3] = ""
+            filelocation = str(location).lower().replace(" ", "_")
+            self.e_expln[3] = f"<b>Error.</b><br>Creature doesn't exist in {filelocation} folder."
 
         # Update GUI
         self.gui_updater()

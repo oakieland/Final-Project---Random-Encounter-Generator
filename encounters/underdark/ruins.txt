@@ -1,0 +1,16 @@
+You come across a small ruin hidden in the Underdark. This area is an ancient duergar ruin with murals featuring mind flayers being slain by the grey dwarves.
+A zurkhwood wagon that was once pulled by the carrion crawlers lays still, glowing moss and lichens grow on it. The wagon is mostly intact, rotting leather strips sit in the cabin.
+A crumbling temple that prominently shows a naked drow goddesses statuette above its door. Inside the crumbling hall and pews. Graffiti is made with crude paint on the back wall stating Lolth tlu malla.
+A beautiful obsidian sculpture of a panther lying on the floor. Standing beside it is the shoes and lower legs of a missing humanoid statue.
+A zurkhwood shack sits by its lonesome. What was once a fungus garden now grown outrageously.
+The passage is filled with multiple statues of humanoids that appear to be screaming in agony.
+An old stone bridge over a bottomless chasm, loose bricks crumble with any sort of pressure but it is structurally sound. Several bottles that were used for shooting practice sit on the hand rail of one side.
+A throne made of stone in a room that once looked to be that of royalty. All that is left is the hooks that once held tapestry and a stone treasure chest.
+
+
+
+
+<b>Treasure.</b> A skeleton of a dwarf sits with a empty silver snuffbox bearing an inscription on the surface that says “dreams”, inside is a vial of blood.
+<b>Treasure.</b> {roll(1,6)} of the statues carry what was left of mithral shortswords, the blades stolen by briggands, but not the hilts stuck in the stone fingers.
+<b>Treasure.</b> Out of {roll(1,6)} only 1 of them is a bottle of Duergar's Fireliquor.
+<b>Treasure.</b> A sheet of parchment upon which is drawn a complex mechanical contraption

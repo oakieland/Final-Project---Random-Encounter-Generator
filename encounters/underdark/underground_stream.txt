@@ -1,0 +1,8 @@
+A waterway {roll(2,4)*5} feet wide cuts across the path. It is shallow and can be easily crossed.
+A shallow waterfall brings fish and debris to a small stream. Edible fish can be seen in it.
+Fresh water pours into this cavern from a waterfall, filtered by glowing moss. Fish and other small crustaceans can be seen in the water.
+Clear water moves slowly through this passage, rocks filter debris, and small fish are thriving through an ecosystem here.
+<b>Drow Pursuit.</b> Drow Pursuit is decreased by 1.<br><br><b>Foraging.</b>Foraging DC is decreased to 10. Characters do not need to roll for water.
+<b>Drow Pursuit.</b> Drow Pursuit is decreased by 1.<br><br><b>Foraging.</b>Foraging DC is decreased to 10. Characters do not need to roll for water.
+<b>Drow Pursuit.</b> Drow Pursuit is decreased by 1.<br><br><b>Foraging.</b>Foraging DC is decreased to 10. Characters do not need to roll for water.
+<b>Drow Pursuit.</b> Drow Pursuit is decreased by 1.<br><br><b>Foraging.</b>Foraging DC is decreased to 10. Characters do not need to roll for water.

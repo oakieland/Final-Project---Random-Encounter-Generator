@@ -1,0 +1,2 @@
+Pits decorate the passage ahead. Each pit is 20-feet deep.
+<b>DC 12 Dexterity Saving Throw.</b><br> When pushed or dropped into a pit, a character can make a saving throw to grab the ledge.

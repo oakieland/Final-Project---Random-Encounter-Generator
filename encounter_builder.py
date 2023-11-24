@@ -15,7 +15,7 @@ class Encounter:
     """
 
     @staticmethod
-    def file_select(name)-> list:
+    def file_select(name,location)-> list:
         """
         Method to builder encounter, find its text file.
         Prefixes:
@@ -26,12 +26,13 @@ class Encounter:
         """
         # Convert name to file
         filename = str(name).lower().replace(" ", "_")
+        filelocation = str(location).lower().replace(" ", "_")
 
         # Makes sure the file doesn't crash if the txt. file goes missing.
         try:
-            file_encounter = open(f'encounters/{filename}.txt', errors="ignore").readlines()
+            file_encounter = open(f'encounters/{filelocation}/{filename}.txt', errors="ignore").readlines()
         except FileNotFoundError:
-            return [name, f"", f"<b>Error.</b><br> Please add {filename}.txt to encounters folder."]
+            return [name, f"", f"<b>Error.</b><br> Please add {filename}.txt to {filelocation} folder."]
 
         # The file mirrors itself, half would be the narration and the other half the rules.
         size = (len(file_encounter) // 2)
@@ -59,21 +60,21 @@ class Encounter:
         :return: output, 2 lines from space_and_marching_order.txt and illumination.txt
         """
         # Space and Marching Order
-        space_and_marching_order = Encounter.file_select("Space and Marching Order")
+        space_and_marching_order = Encounter.file_select("Space and Marching Order","")
 
         # Illumination
-        illumination = Encounter.file_select("Illumination")
+        illumination = Encounter.file_select("Illumination","")
 
         output = [space_and_marching_order[1], space_and_marching_order[2], illumination[1], illumination[2]]
         return output
 
     @staticmethod
-    def encounter_generator(name) -> list:
+    def encounter_generator(name,location) -> list:
         """
         Method to choose "Terrain" or "Creature"
         :return: output, 3 strings in a list are outputted: The name, narration and rules.
         """
-        encounter: list = Encounter.file_select(name)
+        encounter: list = Encounter.file_select(name, location)
 
         f_Title:str = encounter[0]
 
@@ -90,7 +91,7 @@ class Encounter:
         return output
 
     @staticmethod
-    def filler() -> list:
+    def filler(location) -> list:
         """
         Method to choose "Filler"
         Prefixes:
@@ -99,6 +100,6 @@ class Encounter:
             rule = the rules related to the above narration.
         :return: output, 2 lines from filler.txt
         """
-        filler = Encounter.file_select("filler")
+        filler = Encounter.file_select("filler",location)
         output = [filler[1], filler[2]]
         return output

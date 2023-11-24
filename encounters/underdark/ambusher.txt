@@ -1,0 +1,28 @@
+A stale pool sits in the center of this passage.
+Above the passage sits a large spider web, the glint of their eyes reflect back at you.
+Blood is splattered on the ground as if things were dropped but there are no corpses.
+The passage is riddled with many holes.
+Boot prints trail off into the passage then suddenly disappear.
+For a brief moment you thought you saw eyes in the stalactites of this passage.
+You see chitin of a large insectoid litter this passage.
+The passage is filled with water up to your ankles.
+Webs decorate this passage.
+Large stalactites hang close to the floor.
+The sounds of something moving underground fill this passage.
+You see a discarded elf's ear in the center of the passage.
+The stalactites rumble slightly as if a tremor occurred. 
+You hear something in the passage walls.
+<b>Combat.</b> 1 chuul.
+<b>Combat.</b> {roll(1,6)} giant spiders.
+<b>Combat.</b> 1 grell.
+<b>Combat.</b> {roll(1,4)} grick.
+<b>Combat.</b> {roll(1,4)} orogs.
+<b>Combat.</b> {roll(1,6)} piercers.
+<b>Combat.</b> 1 Umber Hulk.
+<b>Combat.</b> 1 chuul.
+<b>Combat.</b> {roll(1,6)} giant spiders.
+<b>Combat.</b> 1 grell.
+<b>Combat.</b> {roll(1,4)} grick.
+<b>Combat.</b> {roll(1,4)} orogs.
+<b>Combat.</b> {roll(1,6)} piercers.
+<b>Combat.</b> 1 Umber Hulk.

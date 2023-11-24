@@ -1,0 +1,8 @@
+A cliff {roll(2, 4) * 10} feet high blocks your passage, a rolled up ladder at the top can be seen.
+A cliff {roll(2, 4) * 10} feet high interrupts the path, a coiled rope on the edge can be seen.
+The passage suddenly ends, but looking up to see it continues {roll(2, 4) * 10} feet from where you stand, a rolled up ladder sits at the top.
+Fallen debris that is {roll(2, 4) * 10} feet high interrupts the path, but a coiled silk rope can be seen tied to a post.
+<b>Athletics DC 15.</b><br> If someone can climb the cliff and assist others, otherwise the characters lose a day. <br><br><b>Drow Pursuit.</b><br>Decreases drow pursuit by 1 if the way to get up is removed after overcoming the obstacle.
+<b>Athletics DC 15.</b><br> If someone can climb the cliff and assist others, otherwise the characters lose a day. <br><br><b>Drow Pursuit.</b><br>Decreases drow pursuit by 1 if the way to get up is removed after overcoming the obstacle.
+<b>Athletics DC 15.</b><br> If someone can climb the cliff and assist others, otherwise the characters lose a day. <br><br><b>Drow Pursuit.</b><br>Decreases drow pursuit by 1 if the way to get up is removed after overcoming the obstacle.
+<b>Athletics DC 15.</b><br> If someone can climb the cliff and assist others, otherwise the characters lose a day. <br><br><b>Drow Pursuit.</b><br>Decreases drow pursuit by 1 if the way to get up is removed after overcoming the obstacle.
