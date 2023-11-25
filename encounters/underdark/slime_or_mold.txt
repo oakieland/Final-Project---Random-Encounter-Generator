@@ -1,0 +1,10 @@
+This cavern is filled with an acrid acidic smell, the bones of small vermin litter it.
+This passage is humid, a mildew smell wanes through it.
+This tunnel is warmed by the volcanic vents. A brownish mold prevails here.
+The cavern is glows warmly from {roll(1,5)+1} two-foot-tall bulbousy mushrooms.
+The cavern is home to {roll(1,5)+1} two-foot-tall toadstools with orange and red stripes across beige caps.
+<b>Green Slime.</b><br> Covers a 5-foot square, blindsight out to a range of 30 feet. <br><br><b>DC 10 Dexterity Saving Throw.</b> On a failure items and creatures take 1d10 acid damage, and again each round until scraped off. Items used to scrap off the slime take 2d10 acid damage each round.
+<b>Yellow Mold.</b><br> If touched sounds a cloud of spores 10-foot cube. <br><br><b>DC 15 Constitution Saving Throw.</b><br> On a failure, the creature takes 2d10 poison damage and becomes poisoned for 1 minute. They take 1d10 poison damage each turn on a failed save. Fire damage instantly destroys the patch.
+<b>Brown Mold.</b><br> When a creature moves to within 5 feet of the mold for the first time on a turn or starts its turn there, it must make a DC 12 Constitution saving throw, taking 22 (4d10) cold damage on a failed save, or half as much damage on a successful one. Expands 10-feet with flames, cold damage destroys it.
+<b>Torchstalk.</b><br> When damage a torchstalk will explode doing 3d6 fire damage to all those within 10 feet.
+<b>Timmasks.</b><br> When touched causes it to expel a 15-foot-radius cloud of poisonous spores. <br><br><b>DC 14 Constitution Saving Throw.</b><br> While poisoned, they are under the effect for the confusion spell with a duration of 1 minute.

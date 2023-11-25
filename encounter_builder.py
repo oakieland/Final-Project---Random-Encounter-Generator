@@ -89,17 +89,3 @@ class Encounter:
         output = [f_Title,roll_Narration,roll_Description]
 
         return output
-
-    @staticmethod
-    def filler(location) -> list:
-        """
-        Method to choose "Filler"
-        Prefixes:
-            file = the .txt file that is read.
-            nara = the narration that would be read aloud.
-            rule = the rules related to the above narration.
-        :return: output, 2 lines from filler.txt
-        """
-        filler = Encounter.file_select("filler",location)
-        output = [filler[1], filler[2]]
-        return output

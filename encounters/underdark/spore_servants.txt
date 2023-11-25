@@ -1,0 +1,8 @@
+Marching southwards is a group of {roll(1,3)+1} drow, their heads have burst open with fungus erupting from it.
+The passage is filled with the moans and silent shuffling of a group of {roll(1,5)+1} duergar, fungus grows from one eye and they shuffle towards the south.
+A parade of {roll(1,3)+1} bird-like creatures with hooks walks through this passage. Ignoring your presence. Their eyes are white like milk and fungus sprouts from their skin like weeds.
+Groans fill this cavern as {roll(1,8)} quaggoth head south. Bursting from the back of their skulls is a strange fungus.
+<b>Combat.</b><br> Only occurs if the characters pick a fight.
+<b>Combat.</b><br> Only occurs if the characters pick a fight.
+<b>Combat.</b><br> Only occurs if the characters pick a fight.
+<b>Combat.</b><br> Only occurs if the characters pick a fight.

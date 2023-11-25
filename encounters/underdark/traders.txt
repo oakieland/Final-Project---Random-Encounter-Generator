@@ -1,0 +1,8 @@
+Up ahead you see what looks to be a group of deep gnome merchants.
+The sound of dwarves arguing fill this cavern, you several duergar.
+The sound of a woman yelling in urbane elvish and several men agreeing with her. You see a drow woman and her employees at a makeshift camp.
+A group of kuo-toa wander through the passage carrying wares on their backs.
+<b> Traders.</b><br> The traders carry {roll(5,4)*10} gp in strange items and/or equipment and 40 days worth of rations.
+<b> Traders.</b><br> The traders carry {roll(5,4)*10} gp in ore and/or equipment and 40 days worth of rations.
+<b> Traders.</b><br> The traders carry {roll(5,4)*10} gp in equipment and 40 days worth of rations.<br><br> <b>Drow Pursuit.</b>If the drow traders see the adventurers they might report it, increase drow pursuit by 1.
+<b> Traders.</b><br> The traders carry {roll(5,4)*10} gp in weapon/item attachments and/or equipment and 40 days worth of rations.

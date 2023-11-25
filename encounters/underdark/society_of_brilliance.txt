@@ -1,0 +1,10 @@
+The passage contains a well dressed derro man in full body purple robes with a bronze mantle on his shoulders.
+Sitting on a stone, reading a book is an orc man, he wears fine robes with a golden mantle at his shoulders.
+A mind flayer is currently looking around. One of their tentacles has a golden thimble over where it had been cut.
+A flat headed lizard-like woman admires her handywork after repairing a small statuette. Her outfit is made of blue fish scales.
+A heavy set kuo-toa man reviews some of the fungus in the cavern, writes on a clip board. While his robes are well put together, chains and scrap metal make up his mantle.
+<b>Y the Derro Savant.</b> Speaks Dwavish, Elvsih, and Undercommon. Has an intelligence of 18, neutral alignment, talkative and prefer diplomacy and debate over violence.
+<b>Blurg the Orog.</b>Speaks Dwavish, Elvsih, and Undercommon. Has an intelligence of 18, neutral alignment, talkative and prefer diplomacy and debate over violence.
+<b>Grazukaxx the Mind Flayer.</b>Speaks Dwavish, Elvsih, and Undercommon. Has an intelligence of 18, neutral alignment, talkative and prefer diplomacy and debate over violence.
+<b>Skriss the Troglodyte.</b>Speaks Dwavish, Elvsih, and Undercommon. Has an intelligence of 18, neutral alignment, talkative and prefer diplomacy and debate over violence.
+<b>Slooopidoop the Kuo-toa Archpriest.</b>Speaks Dwavish, Elvsih, and Undercommon. Has an intelligence of 18, neutral alignment, talkative and prefer diplomacy and debate over violence.

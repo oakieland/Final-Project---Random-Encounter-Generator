@@ -1,0 +1,8 @@
+Up ahead you see what looks to be a group of deep gnome merchants, giant lizards carry their wares on their backs.
+The sounds of skuttling fill this cavern, you several duergar, and half as many giant tarantula-like insects carrying boxes with tarps on their backs.
+You hear dwarvish further down the passage, you see several duergar as a campsite, several large tarantula-like spiders, and one very large spider with a well armored duergar sitting beside it.
+The sound of a woman yelling in urbane elvish and several men agreeing with her. You see a drow woman, several of her employees and half as many giant lizards.
+<b> Traders.</b><br> The traders carry {roll(5,4)*10} gp in strange items and/or equipment and 40 days worth of rations.
+<b> Traders.</b><br> The traders carry {roll(5,4)*10} gp in ore and/or equipment and 40 days worth of rations.
+<b> Traders.</b><br> The traders carry {roll(5,4)*10} gp in ore and/or equipment and 40 days worth of rations.
+<b> Traders.</b><br> The traders carry {roll(5,4)*10} gp in equipment and 40 days worth of rations.<br><br> <b>Drow Pursuit.</b>If the drow traders see the adventurers they might report it, increase drow pursuit by 1.

@@ -1,0 +1,6 @@
+Hot steam erupts from the walls occasionally.
+A {roll(2,4)} geysers fill this passage with extremely hot water.
+A natural hot spring sprouts in this passage, but it maybe potentially too hot.
+<b>DC 12 Dexterity Saving Throw.</b><br> Failure takes 2d6 fire damage. It erupts randomly from a nearby wall.
+<b>DC 12 Dexterity Saving Throw.</b><br> Failure takes 2d6 fire damage. It erupts in a 10-foot radius.
+<b>DC 12 Constitution Saving Throw.</b><br> Failure takes 2d6 fire damage. On a success, it is treated like a lesser restoration spell.

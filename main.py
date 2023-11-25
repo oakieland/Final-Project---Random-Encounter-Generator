@@ -193,11 +193,11 @@ class Madlibs(QMainWindow, Ui_MainWindow):
         """
         category = self.category
         location = str(category.currentText())
-        filler: dict = Encounter.filler(location)
+        filler: dict = Encounter.encounter_generator("filler", location)
 
         # Filler
-        self.e_descn[2] = filler[0]
-        self.e_expln[2] = filler[1]
+        self.e_descn[2] = filler[1]
+
 
         # Update GUI
         self.gui_updater()
@@ -384,6 +384,7 @@ class Madlibs(QMainWindow, Ui_MainWindow):
             self.e_descn[2] = ''
             self.e_expln[2] = ''
             self.creature_encounter()
+            self.filler_encounter()
 
         # Generates Terrain and Creatures
         elif d20 >= 18:
