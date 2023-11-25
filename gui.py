@@ -111,7 +111,7 @@ class Ui_MainWindow(object):
         self.explanation.setText(_translate("MainWindow", "<html><head/><body><p><br/></p></body></html>"))
         self.title.setText(_translate("MainWindow", "<html><head/><body><p><br/></p><p><br/></p></body></html>"))
         self.category.setItemText(0, _translate("MainWindow", "Underdark"))
-        self.category.setItemText(1, _translate("MainWindow", "The Silken Paths"))
+        self.category.setItemText(1, _translate("MainWindow", "The Silken Path"))
         self.gen_other.setText(_translate("MainWindow", "Generate Illumination and Space"))
         self.d20_all.setPlaceholderText(_translate("MainWindow", "If you manually rolled, place it here."))
 

@@ -71,7 +71,7 @@ class Encounter:
     @staticmethod
     def encounter_generator(name,location) -> list:
         """
-        Method to choose "Terrain" or "Creature"
+        Method to choose "Terrain", "Filler" or "Creature"
         :return: output, 3 strings in a list are outputted: The name, narration and rules.
         """
         encounter: list = Encounter.file_select(name, location)

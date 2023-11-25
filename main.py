@@ -188,7 +188,7 @@ class Madlibs(QMainWindow, Ui_MainWindow):
     def filler_encounter(self)-> None:
         """
         Generates Filler
-        :param: filler uses the function of the same name in filler
+        :param: filler uses the encounter_generator.
         :return: None
         """
         category = self.category
