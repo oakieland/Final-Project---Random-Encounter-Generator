@@ -32,9 +32,9 @@ A stalagmite has a glowing sigil, made from a phosphorescent powder.
 
 
 
-<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means "Demons Ahead!".<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>1 Invisible Barlgura
-<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means "Demons Ahead!".<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>1 Invisible Barlgura
-<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means "Demons Ahead!".<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>{roll(3,4)} dretches
-<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means "Demons Ahead!".<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>{roll(3,4)} dretches
-<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means "Demons Ahead!".<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>{roll(1,2)} shadow demons
-<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means "Demons Ahead!".<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>{roll(1,2)} shadow demons
+<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means Demons Ahead!.<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>1 Invisible Barlgura
+<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means Demons Ahead!.<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>1 Invisible Barlgura
+<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means Demons Ahead!.<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>{roll(3,4)} dretches
+<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means Demons Ahead!.<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>{roll(3,4)} dretches
+<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means Demons Ahead!.<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>{roll(1,2)} shadow demons
+<b>Passive Perception DC 11.</b> Can spot this, it is a drow sigil that means Demons Ahead!.<br><br><b>Wisdom Saving Throw DC 10.<br><br></b><b>Resting Ambush.</b><br>{roll(1,2)} shadow demons
