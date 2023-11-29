@@ -63,10 +63,14 @@ class Madlibs(QMainWindow, Ui_MainWindow):
 
         # If dice is manually entered, check if its within range
         if not text == '':
+            self.msg_error.setText(f"")
             validator: int = dice_checker(20, text)
             if validator is not None:
                 d20: int = validator
                 print(d20)
+            else:
+                self.msg_error.setText(f"Terrain roll must be 1 to 20")
+                pass
 
         # Grab Terrain Encounter based on d20 roll
         match d20:
@@ -219,10 +223,14 @@ class Madlibs(QMainWindow, Ui_MainWindow):
 
         # If dice is manually entered, check if its within range
         if not text == '':
+            self.msg_error.setText(f"")
             validator: int = dice_checker(20, text)
             if validator is not None:
                 d20: int = validator
                 print(d20)
+            else:
+                self.msg_error.setText(f"Creature roll must be 1 to 20")
+                pass
 
         # Grab Creature Encounter based on d20 roll
         match d20:
@@ -353,10 +361,14 @@ class Madlibs(QMainWindow, Ui_MainWindow):
 
         # If dice is manually entered, check if its within range
         if not text == '':
+            self.msg_error.setText(f"")
             validator: int = dice_checker(20, text)
             if validator is not None:
                 d20: int = validator
                 print(d20)
+            else:
+                self.msg_error.setText(f"All roll must be 1 to 20")
+                pass
 
         # Generates Passage Size and Illumination without requiring a d20 roll
         self.generate_features()

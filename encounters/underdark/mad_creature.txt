@@ -7,7 +7,7 @@ You see an ambiguously attractive drow, the shack they have built for themselves
 A duergar is seen hammering away in a makeshift smithie. Nailed near a workbench is the magic item formula for a Moon-touched sword. The duergar looks skittish and malnourished.
 Lying on the ground is a stone giant missing one of his legs. When he notices one of you he waves you down.
 A naked deep gnome, one that could be mistaken for a mole, sits on a rock ahead of you.
-A duergar gets in your way, he then asks "Finally, I was wondering when my fans would show up!"
+A duergar gets in your way, he then asks Finally, I was wondering when my fans would show up!
 <b>Mad Creature.</b><br>The deep gnome is named Bimpnottin Saltlick, she stole an obsidian gemstone from a group of kuo-toa and believes they are after her.
 <b>Mad Creature.</b><br>The drow is Xunelk, he abandoned his name to follow Lolth's word. He is simply mad and taking orders from a 100 GP obsidian statuette of Lolth.
 <b>Mad Creature.</b><br>The duergar is Urdug Ironankh, he is willing to trade a single common healing potion for a bottle of booze.

@@ -1,4 +1,5 @@
 import random
+from gui import *
 def dice_checker(dice_max: int, text: str) -> int:
     """
         Static method to ensure dice integrity.
@@ -18,6 +19,7 @@ def dice_checker(dice_max: int, text: str) -> int:
 
     except KeyError:
         print(f'Key Error: Must be an Integer from 1 to {dice_max}.')
+
     except ValueError:
         print(f'ValueError: Must be an Integer from 1 to {dice_max}.')
 
